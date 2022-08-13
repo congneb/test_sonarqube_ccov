@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 include_directories(./inc ./fake_inc)
 
-#FILE(GLOB MyCSources src/*.c)
-#ADD_EXECUTABLE(MyExecutable ${MyCSources})
+FILE(GLOB MyCSources src/*.c)
+ADD_EXECUTABLE(MyExecutable ${MyCSources})
 
-add_executable(MyExecutable src/rfid_id12la.c src/ut_id12la.c)
+#add_executable(MyExecutable src/rfid_id12la.c src/ut_id12la.c)
