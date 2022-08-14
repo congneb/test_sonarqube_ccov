@@ -28,7 +28,15 @@ int main(void)
 {
   // id12la_ts_000();
 
-	id12la_tc_000();
+	// id12la_tc_000();
+
+
+	sl_status_t status;
+	sl_i2cspm_t i2cspm;
+
+	status = id12la_init(&i2cspm);
+
+	status = id12la_init(NULL);
 
 	return 0;
 }
