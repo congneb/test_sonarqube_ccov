@@ -1,6 +1,7 @@
 #include "lib.h"
 
-int id(int) { return 0; }
+// int id(int) { return 0; }
+
 int main() {
-  return myfun(1, &id) != 0;
+  return myfun(1, NULL);
 }
