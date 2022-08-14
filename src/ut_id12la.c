@@ -23,3 +23,10 @@ void id12la_ts_000(void)
 
 	id12la_tc_001();
 }
+
+int main(void)
+{
+  id12la_ts_000();
+
+  return 0;
+}
