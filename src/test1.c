@@ -2,5 +2,5 @@
 
 int id(int) { return 0; }
 int main() {
-  return myfun(true, &id) != 0;
+  return myfun(1, &id) != 0;
 }
