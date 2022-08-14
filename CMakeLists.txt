@@ -5,9 +5,9 @@ set(CMAKE_CXX_FLAGS " ${CMAKE_CXX_FLAGS} --coverage")
 set(CMAKE_CXX_STANDARD 17)
 
 
-FILE(GLOB MyCSources src/*.c)
-ADD_EXECUTABLE(MyExecutable ${MyCSources})
+#FILE(GLOB MyCSources src/*.c)
+#ADD_EXECUTABLE(MyExecutable ${MyCSources})
 
-#add_executable(coverage_test1 src/lib.cpp src/test1.cpp)
+add_executable(MyExecutable src/lib.cpp src/test1.cpp)
 #add_executable(coverage_test2 src/lib.cpp src/test2.cpp)
 
