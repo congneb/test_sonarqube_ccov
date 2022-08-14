@@ -11,8 +11,8 @@ int myfun(bool b, int (*callback)(int)) {
     ;
     ; // intentional extra-semicolon
   }
-  if (callback == nullptr) {
-    return (*callback)(3); // intentional nullptr dereference
+  if (callback == NULL) {
+    return (*callback)(3); // intentional NULL dereference
   } else {
     return 0;
   }
